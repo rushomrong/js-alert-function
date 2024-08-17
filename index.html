@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Alert Function</title>
+  </head>
+  <body>
+    <center>
+      <button
+        onclick="clickMe()"
+        style="
+          padding: 15px 20px 20px 15px;
+          width: 10%;
+          background-color: bisque;
+          border: none;
+          border-radius: 10px;
+          color: black;
+          font-weight: 600;
+          font-size: 16px;
+          margin-top: 150px;
+        "
+      >
+        Click me
+      </button>
+    </center>
+
+    <script>
+      function clickMe() {
+        alert("Hi, What's your name?");
+        var name = prompt("Enter your name");
+        alert("Welcome " + name);
+      }
+    </script>
+  </body>
+</html>
